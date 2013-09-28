@@ -1,0 +1,4 @@
+#!/bin/bash
+
+lein misaki --compile
+rsync -av --progress public/ "$(cat .deploy-to)"

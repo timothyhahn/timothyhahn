@@ -1,7 +1,7 @@
 ; @layout  default
 ; @title   post default title
 
-(section :main
+(section :main "main"
  ; page header
  [:div.page-header
   ; post title

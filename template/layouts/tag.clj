@@ -1,7 +1,7 @@
 ; @layout  default
 ; @title   tag default title
 
- (section :main
+(section :main "main"
  ; page header
  [:div {:class "page-header"}
   [:h2 (:tag-name site)]]

@@ -22,7 +22,7 @@
 
 (defn hd [s] [:h1.title s])
 
-(defn section [el & s] [el {:class "glow shadow grid-66 center"} s])
+(defn section [el cl & s] [el [:div {:class (str cl " glow shadow grid-66 center")} s]])
 
 (defn em [s] [:em s])
 
@@ -34,7 +34,7 @@
  [:img {:class "bg" :src "/img/background.png"}]
 
  [:div.grid-container.center
-  (section :header
+  (section :header "header"
     [:h2 (:site-title site)]
     [:ul#menu-links 
      [:li [:a {:href "/"} "Home"]] 
@@ -49,7 +49,7 @@
 
   contents
 
-  (section :footer
+  (section :footer "footer"
       "Copyright © 2013 Timothy Hahn"
       
       [:div#powered-by

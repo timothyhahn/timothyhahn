@@ -11,13 +11,18 @@
     (:site-title site)
     (str (:site-title site) " - " (:title site)))]
 
+  "<!--[if IE 7]>"
+    [:link {:rel "stylesheet"
+            :href "/css/font-awesome-ie7.min.css"}]
+  "<![endif]-->"
+
  [:link {:rel   "shortcut icon"
          :href  "/favicon.ico"}]
  [:link {:href  "/atom.xml"
          :rel   "alternate"
          :title (:title site)
          :type  "application/atom-xml"}]
- (absolute-css ["/css/prettify.css" (:css site ())])]
+ (absolute-css ["/css/prettify.min.css" (:css site ())])]
 ; /head
 
 (defn hd [s] [:h1.title s])

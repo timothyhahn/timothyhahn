@@ -29,7 +29,7 @@
         :lastfm     "newsoundwave"
         :css        ["http://fonts.googleapis.com/css?family=Josefin+Sans"
                      "/css/main.css"
-                     "/css/unsemantic-grid-responsive-tablet.css"
+                     "/css/unsemantic-grid-responsive-tablet.min.css"
                      "/css/font-awesome.min.css"]
         :js         ["/js/main.js"]}
 

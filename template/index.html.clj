@@ -24,6 +24,7 @@
 
   [:br]
   [:h3 [:i.icon-road] " Experience"]
+  [:br]
   (experience "Hewlett-Packard" 
                "http://hp.com" 
                "Wayne, PA" 

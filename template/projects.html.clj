@@ -11,7 +11,7 @@
       [:ul {:class "project-links"} [:h4 "Links"] (for [link links] 
         [:li [:a {:href link} link]])]])
 
-(section :main
+(section :main "main"
   ;; Projects
   (hd "Projects")
 

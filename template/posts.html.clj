@@ -2,7 +2,7 @@
 ; @layout  default
 ; @title   home
 
-(section :main
+(section :main "main"
   ;; Posts
   (hd "Posts")
   (post-list {})

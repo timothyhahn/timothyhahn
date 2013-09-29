@@ -13,7 +13,7 @@
 
   "<!--[if IE 7]>"
     [:link {:rel "stylesheet"
-            :href "/css/font-awesome-ie7.min.css"}]
+            :href "/vendor/css/font-awesome-ie7.min.css"}]
   "<![endif]-->"
 
  [:link {:rel   "shortcut icon"
@@ -22,7 +22,7 @@
          :rel   "alternate"
          :title (:title site)
          :type  "application/atom-xml"}]
- (absolute-css ["/css/prettify.min.css" (:css site ())])]
+ (absolute-css ["/vendor/css/prettify.min.css" (:css site ())])]
 ; /head
 
 (defn hd [s] [:h1.title s])
@@ -61,9 +61,9 @@
        "Powered By " (link "Misaki" "http://liquidz.github.io/misaki/")])]
       ; /grid-container
 
- (absolute-js ["/js/prettify.js"
-               "/js/lang-clj.js"
-               "/js/jquery.min.js"
-               "/js/jquery.timeago.js"
+ (absolute-js ["/vendor/js/prettify.js"
+               "/vendor/js/lang-clj.js"
+               "/vendor/js/jquery.min.js"
+               "/vendor/js/jquery.timeago.js"
                (:js site ())])]
 ; /body

@@ -29,8 +29,8 @@
         :lastfm     "newsoundwave"
         :css        ["http://fonts.googleapis.com/css?family=Josefin+Sans"
                      "/css/main.css"
-                     "/css/unsemantic-grid-responsive-tablet.min.css"
-                     "/css/font-awesome.min.css"]
+                     "/vendor/css/unsemantic-grid-responsive-tablet.min.css"
+                     "/vendor/css/font-awesome.min.css"]
         :js         ["/js/main.js"]}
 
  ;; post file compile hook
